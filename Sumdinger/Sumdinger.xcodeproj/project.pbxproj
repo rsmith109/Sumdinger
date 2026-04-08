@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1429AAD42B8E2CB400A349F1 /* SumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429AAD32B8E2CB400A349F1 /* SumdingerApp.swift */; };
+		1429AAD62B8E2CB400A349F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429AAD52B8E2CB400A349F1 /* ContentView.swift */; };
+		1429AAD82B8E2CB600A349F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1429AAD72B8E2CB600A349F1 /* Assets.xcassets */; };
+		1429AAFE2B8E716B00A349F1 /* PlayingDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429AAFD2B8E716B00A349F1 /* PlayingDice.swift */; };
+		1429AB002B8E723C00A349F1 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429AAFF2B8E723C00A349F1 /* Dice.swift */; };
+		1429AB062B8FDCEA00A349F1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429AB052B8FDCEA00A349F1 /* Game.swift */; };
+		1429AB082B911D3000A349F1 /* Summer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429AB072B911D3000A349F1 /* Summer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1429AAE12B8E2CB600A349F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1429AAC82B8E2CB400A349F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1429AACF2B8E2CB400A349F1;
+			remoteInfo = Sumdinger;
+		};
+		1429AAEB2B8E2CB600A349F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1429AAC82B8E2CB400A349F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1429AACF2B8E2CB400A349F1;
+			remoteInfo = Sumdinger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1429AAD02B8E2CB400A349F1 /* Sumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1429AAD32B8E2CB400A349F1 /* SumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumdingerApp.swift; sourceTree = "<group>"; };
+		1429AAD52B8E2CB400A349F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1429AAD72B8E2CB600A349F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1429AAE02B8E2CB600A349F1 /* SumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1429AAEA2B8E2CB600A349F1 /* SumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1429AAFD2B8E716B00A349F1 /* PlayingDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingDice.swift; sourceTree = "<group>"; };
+		1429AAFF2B8E723C00A349F1 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		1429AB052B8FDCEA00A349F1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1429AB072B911D3000A349F1 /* Summer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1429AACD2B8E2CB400A349F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1429AADD2B8E2CB600A349F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1429AAE72B8E2CB600A349F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1429AAC72B8E2CB400A349F1 = {
+			isa = PBXGroup;
+			children = (
+				1429AAD22B8E2CB400A349F1 /* Sumdinger */,
+				1429AAD12B8E2CB400A349F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1429AAD12B8E2CB400A349F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1429AAD02B8E2CB400A349F1 /* Sumdinger.app */,
+				1429AAE02B8E2CB600A349F1 /* SumdingerTests.xctest */,
+				1429AAEA2B8E2CB600A349F1 /* SumdingerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1429AAD22B8E2CB400A349F1 /* Sumdinger */ = {
+			isa = PBXGroup;
+			children = (
+				1429AAD32B8E2CB400A349F1 /* SumdingerApp.swift */,
+				1429AAD52B8E2CB400A349F1 /* ContentView.swift */,
+				1429AAD72B8E2CB600A349F1 /* Assets.xcassets */,
+				1429AAD92B8E2CB600A349F1 /* Preview Content */,
+			);
+			path = Sumdinger;
+			sourceTree = "<group>";
+		};
+		1429AAD92B8E2CB600A349F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1429AAFD2B8E716B00A349F1 /* PlayingDice.swift */,
+				1429AAFF2B8E723C00A349F1 /* Dice.swift */,
+				1429AB052B8FDCEA00A349F1 /* Game.swift */,
+				1429AB072B911D3000A349F1 /* Summer.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1429AACF2B8E2CB400A349F1 /* Sumdinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1429AAF42B8E2CB600A349F1 /* Build configuration list for PBXNativeTarget "Sumdinger" */;
+			buildPhases = (
+				1429AACC2B8E2CB400A349F1 /* Sources */,
+				1429AACD2B8E2CB400A349F1 /* Frameworks */,
+				1429AACE2B8E2CB400A349F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sumdinger;
+			productName = Sumdinger;
+			productReference = 1429AAD02B8E2CB400A349F1 /* Sumdinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1429AADF2B8E2CB600A349F1 /* SumdingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1429AAF72B8E2CB600A349F1 /* Build configuration list for PBXNativeTarget "SumdingerTests" */;
+			buildPhases = (
+				1429AADC2B8E2CB600A349F1 /* Sources */,
+				1429AADD2B8E2CB600A349F1 /* Frameworks */,
+				1429AADE2B8E2CB600A349F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1429AAE22B8E2CB600A349F1 /* PBXTargetDependency */,
+			);
+			name = SumdingerTests;
+			productName = SumdingerTests;
+			productReference = 1429AAE02B8E2CB600A349F1 /* SumdingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1429AAE92B8E2CB600A349F1 /* SumdingerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1429AAFA2B8E2CB600A349F1 /* Build configuration list for PBXNativeTarget "SumdingerUITests" */;
+			buildPhases = (
+				1429AAE62B8E2CB600A349F1 /* Sources */,
+				1429AAE72B8E2CB600A349F1 /* Frameworks */,
+				1429AAE82B8E2CB600A349F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1429AAEC2B8E2CB600A349F1 /* PBXTargetDependency */,
+			);
+			name = SumdingerUITests;
+			productName = SumdingerUITests;
+			productReference = 1429AAEA2B8E2CB600A349F1 /* SumdingerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1429AAC82B8E2CB400A349F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1429AACF2B8E2CB400A349F1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1429AADF2B8E2CB600A349F1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1429AACF2B8E2CB400A349F1;
+					};
+					1429AAE92B8E2CB600A349F1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1429AACF2B8E2CB400A349F1;
+					};
+				};
+			};
+			buildConfigurationList = 1429AACB2B8E2CB400A349F1 /* Build configuration list for PBXProject "Sumdinger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1429AAC72B8E2CB400A349F1;
+			productRefGroup = 1429AAD12B8E2CB400A349F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1429AACF2B8E2CB400A349F1 /* Sumdinger */,
+				1429AADF2B8E2CB600A349F1 /* SumdingerTests */,
+				1429AAE92B8E2CB600A349F1 /* SumdingerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1429AACE2B8E2CB400A349F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1429AAD82B8E2CB600A349F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1429AADE2B8E2CB600A349F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1429AAE82B8E2CB600A349F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1429AACC2B8E2CB400A349F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1429AAD62B8E2CB400A349F1 /* ContentView.swift in Sources */,
+				1429AB062B8FDCEA00A349F1 /* Game.swift in Sources */,
+				1429AB082B911D3000A349F1 /* Summer.swift in Sources */,
+				1429AAD42B8E2CB400A349F1 /* SumdingerApp.swift in Sources */,
+				1429AB002B8E723C00A349F1 /* Dice.swift in Sources */,
+				1429AAFE2B8E716B00A349F1 /* PlayingDice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1429AADC2B8E2CB600A349F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1429AAE62B8E2CB600A349F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1429AAE22B8E2CB600A349F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1429AACF2B8E2CB400A349F1 /* Sumdinger */;
+			targetProxy = 1429AAE12B8E2CB600A349F1 /* PBXContainerItemProxy */;
+		};
+		1429AAEC2B8E2CB600A349F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1429AACF2B8E2CB400A349F1 /* Sumdinger */;
+			targetProxy = 1429AAEB2B8E2CB600A349F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1429AAF22B8E2CB600A349F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1429AAF32B8E2CB600A349F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1429AAF52B8E2CB600A349F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sumdinger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.rsmith109.Sumdinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1429AAF62B8E2CB600A349F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sumdinger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.rsmith109.Sumdinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1429AAF82B8E2CB600A349F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.rsmith109.SumdingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumdinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sumdinger";
+			};
+			name = Debug;
+		};
+		1429AAF92B8E2CB600A349F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.rsmith109.SumdingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumdinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sumdinger";
+			};
+			name = Release;
+		};
+		1429AAFB2B8E2CB600A349F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.rsmith109.SumdingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sumdinger;
+			};
+			name = Debug;
+		};
+		1429AAFC2B8E2CB600A349F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.rsmith109.SumdingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sumdinger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1429AACB2B8E2CB400A349F1 /* Build configuration list for PBXProject "Sumdinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1429AAF22B8E2CB600A349F1 /* Debug */,
+				1429AAF32B8E2CB600A349F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1429AAF42B8E2CB600A349F1 /* Build configuration list for PBXNativeTarget "Sumdinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1429AAF52B8E2CB600A349F1 /* Debug */,
+				1429AAF62B8E2CB600A349F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1429AAF72B8E2CB600A349F1 /* Build configuration list for PBXNativeTarget "SumdingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1429AAF82B8E2CB600A349F1 /* Debug */,
+				1429AAF92B8E2CB600A349F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1429AAFA2B8E2CB600A349F1 /* Build configuration list for PBXNativeTarget "SumdingerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1429AAFB2B8E2CB600A349F1 /* Debug */,
+				1429AAFC2B8E2CB600A349F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1429AAC82B8E2CB400A349F1 /* Project object */;
+}
